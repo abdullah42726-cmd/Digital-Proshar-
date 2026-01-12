@@ -74,23 +74,6 @@ const Hero: React.FC<{ lang: Language }> = ({ lang }) => {
       <div className="relative z-10 max-w-7xl mx-auto w-full">
         <div className="space-y-16 md:space-y-24">
           
-          {/* Status Badge (Tertiary Focus) */}
-          <div className={`transition-all duration-1000 transform ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'}`}>
-            <div className="inline-flex items-center gap-4 px-6 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-md border border-gray-100 shadow-sm">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand opacity-40"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-brand"></span>
-              </span>
-              <span className="text-[10px] font-black uppercase tracking-[0.4em] text-[#1D1D1F]">
-                {isEn ? 'Authorized Clinical Branding' : 'অনুমোদিত ক্লিনিকাল ব্র্যান্ডিং'}
-              </span>
-              <div className="h-4 w-[1px] bg-gray-200" />
-              <span className="text-[9px] font-bold text-gray-400 uppercase tracking-widest">
-                VERIFIED v2.4
-              </span>
-            </div>
-          </div>
-
           {/* Headline Engine (Primary Focus) */}
           <div className="space-y-10">
             <h1 className="hero-title flex flex-col text-left">
