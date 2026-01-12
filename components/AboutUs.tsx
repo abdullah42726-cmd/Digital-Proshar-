@@ -116,10 +116,10 @@ const AboutUs: React.FC<{ lang: Language }> = ({ lang }) => {
             </div>
             
             <div className="pt-8 flex flex-col sm:flex-row items-center gap-10">
-               <button className="group relative w-full sm:w-auto px-14 py-7 bg-[#1D1D1F] text-white rounded-[28px] font-black text-xl hover:bg-black transition-all hover:scale-105 active:scale-95 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.3)] overflow-hidden">
-                  <span className="relative z-10 flex items-center gap-4">
+               <button className="group relative w-full sm:w-auto px-10 py-7 bg-[#1D1D1F] text-white rounded-[28px] font-black text-xl hover:bg-black transition-all hover:scale-105 active:scale-95 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.3)] overflow-hidden">
+                  <span className="relative z-10 flex items-center justify-center gap-4 whitespace-nowrap">
                     {lang === 'EN' ? 'Meet the Team' : 'টিমের সাথে পরিচিত হন'}
-                    <svg className="w-6 h-6 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    <svg className="w-6 h-6 transform transition-transform group-hover:translate-x-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-brand/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                </button>

@@ -31,6 +31,20 @@ const TEAM_MEMBERS = [
     role: { EN: "Client Success Manager", BN: "ক্লায়েন্ট সাকসেস ম্যানেজার" },
     bio: { EN: "Ensuring every healthcare partner reaches their maximum digital potential.", BN: "প্রতিটি স্বাস্থ্যসেবা অংশীদারের সর্বোচ্চ ডিজিটাল সম্ভাবনা নিশ্চিত করছেন।" },
     avatar: "https://i.pravatar.cc/400?u=nabila"
+  },
+  {
+    id: "UNIT-05",
+    name: "Dr. Sifat Hasan",
+    role: { EN: "Medical Liaison", BN: "মেডিকেল লিয়াজোঁ" },
+    bio: { EN: "Expert in translating clinical requirements into actionable branding strategies.", BN: "ক্লিনিকাল প্রয়োজনীয়তাগুলোকে কার্যকর ব্র্যান্ডিং কৌশলে রূপান্তর করতে বিশেষজ্ঞ।" },
+    avatar: "https://i.pravatar.cc/400?u=sifat"
+  },
+  {
+    id: "UNIT-06",
+    name: "Mahima Akter",
+    role: { EN: "Performance Analyst", BN: "পারফরম্যান্স অ্যানালিস্ট" },
+    bio: { EN: "Driving data-backed growth for healthcare institutions through precision analytics.", BN: "নিখুঁত অ্যানালিটিক্সের মাধ্যমে স্বাস্থ্যসেবা প্রতিষ্ঠানগুলোর ডেটা-ব্যাকড বৃদ্ধি নিশ্চিত করছেন।" },
+    avatar: "https://i.pravatar.cc/400?u=mahima"
   }
 ];
 
@@ -145,7 +159,7 @@ const AboutPage: React.FC<{ lang: Language }> = ({ lang }) => {
             <div className="h-[2px] flex-1 bg-gray-100 hidden md:block mb-8"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {TEAM_MEMBERS.map((member, idx) => (
               <div 
                 key={member.id} 
