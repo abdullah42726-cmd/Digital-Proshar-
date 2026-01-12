@@ -48,7 +48,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ lang, onSelectService }) =>
               </span>
             </div>
             
-            <h1 className="text-8xl md:text-[180px] font-black tracking-tighter text-[#1D1D1F] leading-[0.75] animate-in fade-in slide-in-from-bottom-12 duration-1000">
+            <h1 className="text-8xl md:text-[180px] font-black tracking-tight text-[#1D1D1F] leading-[0.75] animate-in fade-in slide-in-from-bottom-12 duration-1000">
               Our<br />
               <span className="text-brand flex items-center gap-8">
                 Scope<span className="text-gray-200">.</span>
@@ -89,7 +89,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ lang, onSelectService }) =>
 
                   <div className="space-y-6">
                     <div className="text-[10px] font-black uppercase tracking-[0.4em] text-gray-300">Module S/0{index + 1}</div>
-                    <h3 className="text-4xl md:text-5xl font-black tracking-tighter text-[#1D1D1F] leading-none transition-colors group-hover:text-brand">
+                    <h3 className="text-4xl md:text-5xl font-black tracking-tight text-[#1D1D1F] leading-none transition-colors group-hover:text-brand">
                       {service.title[lang]}
                     </h3>
                     <p className="text-xl text-gray-500 font-medium leading-relaxed max-w-sm">
@@ -132,7 +132,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ lang, onSelectService }) =>
                 <span className="text-[10px] font-black uppercase tracking-[0.5em] text-gray-400">The Proshar Methodology</span>
               </div>
               
-              <h2 className="text-6xl md:text-8xl font-black tracking-tighter text-white leading-[0.85]">
+              <h2 className="text-6xl md:text-8xl font-black tracking-tight text-white leading-[0.85]">
                 Built for<br />
                 <span className="text-brand">Impact.</span>
               </h2>

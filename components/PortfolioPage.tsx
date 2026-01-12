@@ -42,7 +42,7 @@ const PortfolioPage: React.FC<{ lang: Language }> = ({ lang }) => {
               </span>
             </div>
             
-            <h1 className="text-8xl md:text-[160px] font-black tracking-tighter text-[#1D1D1F] leading-[0.75] animate-in fade-in slide-in-from-bottom-12 duration-1000">
+            <h1 className="text-8xl md:text-[160px] font-black tracking-tight text-[#1D1D1F] leading-[0.75] animate-in fade-in slide-in-from-bottom-12 duration-1000">
               Impact<br />
               <span className="text-brand">Stories.</span>
             </h1>
@@ -130,7 +130,7 @@ const PortfolioPage: React.FC<{ lang: Language }> = ({ lang }) => {
                     <div className="flex items-start justify-between">
                       <div className="space-y-2">
                         <div className="text-[10px] font-black uppercase tracking-[0.4em] text-gray-300">Case S/0{project.id}</div>
-                        <h3 className="text-4xl md:text-5xl font-black tracking-tighter text-[#1D1D1F] leading-none transition-colors group-hover:text-brand">
+                        <h3 className="text-4xl md:text-5xl font-black tracking-tight text-[#1D1D1F] leading-none transition-colors group-hover:text-brand">
                           {project.clientName}
                         </h3>
                       </div>

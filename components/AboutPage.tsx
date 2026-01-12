@@ -74,7 +74,7 @@ const AboutPage: React.FC<{ lang: Language }> = ({ lang }) => {
                </span>
              </div>
              
-             <h1 className="text-8xl md:text-[180px] font-black tracking-tighter text-[#1D1D1F] leading-[0.75] animate-in fade-in slide-in-from-bottom-12 duration-1000">
+             <h1 className="text-8xl md:text-[180px] font-black tracking-tight text-[#1D1D1F] leading-[0.75] animate-in fade-in slide-in-from-bottom-12 duration-1000">
                The<br />
                <span className="text-brand flex items-center gap-8">
                  Core<span className="text-gray-200">.</span>
@@ -149,7 +149,7 @@ const AboutPage: React.FC<{ lang: Language }> = ({ lang }) => {
         <div className="space-y-32">
           <div className="flex flex-col md:flex-row items-end justify-between gap-12">
             <div className="space-y-6">
-              <h2 className="text-6xl md:text-9xl font-black tracking-tighter text-[#1D1D1F]">
+              <h2 className="text-6xl md:text-9xl font-black tracking-tight text-[#1D1D1F]">
                 The Unit<span className="text-brand">.</span>
               </h2>
               <p className="text-xl text-gray-400 font-medium uppercase tracking-[0.4em]">

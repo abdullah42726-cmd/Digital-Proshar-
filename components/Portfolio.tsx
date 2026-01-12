@@ -18,7 +18,7 @@ const Portfolio: React.FC<{ lang: Language }> = ({ lang }) => {
               {isEn ? 'Proof of Impact' : 'প্রমাণিত প্রভাব'}
             </span>
           </div>
-          <h2 className="text-6xl md:text-9xl font-black tracking-tighter text-[#1D1D1F] leading-[0.85]">
+          <h2 className="text-6xl md:text-9xl font-black tracking-tight text-[#1D1D1F] leading-[0.85]">
             Success<br />
             <span className="italic font-medium text-gray-300 ml-4 md:ml-12">{isEn ? 'through' : ''}</span>
             <span className="text-brand block md:inline md:ml-4">{isEn ? 'Stories' : 'গল্প'}</span>
@@ -90,7 +90,7 @@ const Portfolio: React.FC<{ lang: Language }> = ({ lang }) => {
                   <div className="text-xs font-black uppercase tracking-[0.4em] text-gray-300">
                     Case S/0{index + 1}
                   </div>
-                  <h3 className="text-5xl md:text-7xl font-black tracking-tighter text-[#1D1D1F] leading-none">
+                  <h3 className="text-5xl md:text-7xl font-black tracking-tight text-[#1D1D1F] leading-none">
                     {project.clientName}
                   </h3>
                 </div>

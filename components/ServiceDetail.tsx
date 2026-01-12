@@ -45,7 +45,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ lang, service, onBack }) 
               <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-xl bg-brand/5 border border-brand/10 text-brand text-[10px] font-black uppercase tracking-[0.2em]">
                 {isEn ? 'Detailed Expertise' : 'বিস্তারিত দক্ষতা'}
               </div>
-              <h1 className="text-5xl md:text-7xl font-black tracking-tighter text-[#1D1D1F] leading-[0.95]">
+              <h1 className="text-5xl md:text-7xl font-black tracking-tight text-[#1D1D1F] leading-[0.95]">
                 <span className="gradient-text">{service.title[lang]}</span>
               </h1>
             </div>

@@ -71,7 +71,7 @@ const Trust: React.FC<{ lang: Language }> = ({ lang }) => {
                 {isEn ? 'The Community Trust' : 'কমিউনিটি ট্রাস্ট'}
               </span>
             </div>
-            <h2 className="text-6xl md:text-8xl font-black tracking-tighter text-[#1D1D1F] leading-[0.85]">
+            <h2 className="text-6xl md:text-8xl font-black tracking-tight text-[#1D1D1F] leading-[0.85]">
               Trusted by<br />Experts<span className="text-brand">.</span>
             </h2>
           </div>

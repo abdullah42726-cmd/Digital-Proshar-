@@ -78,7 +78,7 @@ const Hero: React.FC<{ lang: Language }> = ({ lang }) => {
           <div className="space-y-10">
             <h1 className="hero-title flex flex-col text-left">
               <div className="overflow-hidden">
-                <span className={`block text-5xl md:text-8xl lg:text-[100px] font-black text-[#1D1D1F] leading-[1.05] tracking-[-0.07em] transition-all duration-[1.2s] cubic-bezier(0.16, 1, 0.3, 1) ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
+                <span className={`block text-5xl md:text-8xl lg:text-[100px] font-black text-[#1D1D1F] leading-[1.05] tracking-tight transition-all duration-[1.2s] cubic-bezier(0.16, 1, 0.3, 1) ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
                   {isEn ? 'Modern Impact ' : 'আধুনিক প্রভাব '}
                   <span className="text-brand font-extrabold whitespace-nowrap opacity-90 text-[0.7em] md:text-[0.75em]">
                     {isEn ? 'for Medical Professionals.' : 'মেডিকেল পেশাদারদের জন্য।'}

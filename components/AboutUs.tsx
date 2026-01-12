@@ -81,7 +81,7 @@ const AboutUs: React.FC<{ lang: Language }> = ({ lang }) => {
                 </span>
               </div>
               
-              <h2 className="text-6xl md:text-8xl font-black tracking-tighter text-[#1D1D1F] leading-[0.85]">
+              <h2 className="text-6xl md:text-8xl font-black tracking-tight text-[#1D1D1F] leading-[0.85]">
                 Clinical Trust.<br />
                 <span className="text-brand flex items-center gap-6">
                   Modern

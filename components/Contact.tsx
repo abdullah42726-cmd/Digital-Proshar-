@@ -31,7 +31,7 @@ const Contact: React.FC<{ lang: Language }> = ({ lang }) => {
               </div>
 
               <div className="space-y-6">
-                <h2 className="text-6xl md:text-9xl font-black tracking-tighter text-[#1D1D1F] leading-[0.85]">
+                <h2 className="text-6xl md:text-9xl font-black tracking-tight text-[#1D1D1F] leading-[0.85]">
                   {isEn ? 'Start' : 'শুরু'} <span className="text-brand">{isEn ? 'Intake' : 'ইনটেক'}</span>.
                 </h2>
                 <p className="text-xl md:text-2xl text-gray-500 font-medium leading-relaxed max-w-lg mx-auto">

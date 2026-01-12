@@ -37,7 +37,7 @@ const Services: React.FC<ServicesProps> = ({ lang, onSelectService }) => {
                 {isEn ? 'Capability Hub' : 'আমাদের সামর্থ্য'}
               </span>
             </div>
-            <h2 className="text-6xl md:text-8xl font-black tracking-tighter text-[#1D1D1F] leading-[0.85]">
+            <h2 className="text-6xl md:text-8xl font-black tracking-tight text-[#1D1D1F] leading-[0.85]">
               Designed for<br />
               <span className="text-brand">Precision.</span>
             </h2>
@@ -73,7 +73,7 @@ const Services: React.FC<ServicesProps> = ({ lang, onSelectService }) => {
                   </div>
 
                   <div className="space-y-4">
-                    <h3 className="text-3xl md:text-4xl font-black tracking-tighter text-[#1D1D1F] leading-none transition-colors group-hover:text-brand">
+                    <h3 className="text-3xl md:text-4xl font-black tracking-tight text-[#1D1D1F] leading-none transition-colors group-hover:text-brand">
                       {service.title[lang]}
                     </h3>
                     <p className="text-lg text-gray-500 font-medium leading-relaxed max-w-sm">
